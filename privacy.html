@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Target Assistant</title>
+<link rel="stylesheet" href="_style.css">
+</head>
+<body>
+<div class="wrap">
+
+<h1>Privacy Policy</h1>
+<p class="sub">Target Assistant · Last updated: 10 September 2026</p>
+
+<div class="note">
+Target Assistant is an advertising analytics tool for small and medium businesses. A business
+connects its own Meta (Facebook/Instagram) ad account and sees how its advertising performs.
+This policy explains exactly what we store, why, and how to get it deleted.
+</div>
+
+<h2>1. Who we are</h2>
+<p>
+The controller of the data described here is
+<span class="fill">[LEGAL ENTITY NAME]</span>,
+<span class="fill">[REGISTERED ADDRESS]</span>.
+Contact for any privacy question or request:
+<a href="mailto:privacy@your-domain.com"><span class="fill">privacy@your-domain.com</span></a>.
+</p>
+
+<h2>2. What we collect</h2>
+
+<h3>2.1 Account data of our users</h3>
+<p>People who use Target Assistant on behalf of a business. We store: e-mail address, display
+name, role inside the company, a salted password hash (never the password itself), and — only
+if the person links it themselves — a Telegram chat identifier used to deliver notifications.</p>
+
+<h3>2.2 Advertising data from your Meta ad account</h3>
+<p>Retrieved from the Meta Marketing API using an access token that you (or your Business
+Manager administrator) grant to us. We store:</p>
+<ul>
+  <li>ad account, campaign, ad set and ad names, statuses and settings;</li>
+  <li>daily and hourly performance figures — spend, impressions, clicks, reach, frequency,
+      results, purchases and their value;</li>
+  <li>ad creatives — images, videos, headlines and body texts, and thumbnails of them;</li>
+  <li>the change log of your ad account (who changed what and when), as Meta reports it;</li>
+  <li>breakdowns of the above by country, region, age, gender, placement and device.</li>
+</ul>
+
+<h3>2.3 Access tokens</h3>
+<p>The Meta access token you grant is stored <strong>encrypted</strong> (AES-256-GCM) and is used
+for one purpose only — to call the Meta API on your behalf. It is never shown in our interface,
+never written to logs, and never sent to anyone else.</p>
+
+<h3>2.4 Lead form submissions</h3>
+<p>If your advertising uses Meta Lead Ads, we retrieve the submissions so you can see and work
+with them. These contain <strong>personal data of the people who filled in your form</strong> —
+typically full name, phone number and e-mail, depending on how your form is configured.</p>
+<p>For this data we act as a <strong>processor on your behalf</strong>: you decide what the form
+asks and what happens with the answers. We only store them and show them to you.</p>
+
+<h3>2.5 Technical records</h3>
+<p>A log of API calls we make to Meta (endpoint, status, error text — never the token), and
+error reports used to fix failures. Error reports are stripped of request bodies before they
+leave our servers.</p>
+
+<h3>2.6 Figures you enter yourself</h3>
+<p>If you tell us how many sales you actually made — for example when your sales happen in
+direct messages and no pixel can see them — we store that number together with the period it
+refers to. <strong>This data is never sent to Meta</strong> in any form: not as an offline
+conversion, not as a pixel event, not through the advertising API. It is used only to show you
+an honest payback verdict.</p>
+
+<h2>3. What we do not do</h2>
+<ul>
+  <li>We do not sell or rent any of this data, to anyone, ever.</li>
+  <li>We do not use your data or your leads to advertise anything to anyone.</li>
+  <li>We do not build advertising profiles of the people in your leads.</li>
+  <li>We do not use one customer's figures to advise another customer.</li>
+  <li>We do not change, pause or launch anything in your ad account unless you explicitly
+      confirm that specific action in the interface, and only within a daily spending cap you
+      set yourself.</li>
+</ul>
+
+<h2>4. Why we process it, and on what basis</h2>
+<table>
+  <tr><th>Data</th><th>Purpose</th><th>Legal basis</th></tr>
+  <tr><td>Account data</td><td>Sign-in, access control, notifications</td>
+      <td>Performance of a contract with you</td></tr>
+  <tr><td>Advertising data</td><td>The analytics you asked for</td>
+      <td>Performance of a contract with you</td></tr>
+  <tr><td>Lead submissions</td><td>Showing you your own leads</td>
+      <td>Processing on your instruction; you are the controller</td></tr>
+  <tr><td>Technical records</td><td>Diagnosing failures, keeping the service working</td>
+      <td>Legitimate interest in a reliable service</td></tr>
+</table>
+
+<h2>5. Who else sees it</h2>
+<ul>
+  <li><strong>Meta Platforms</strong> — the source of the advertising data. We read from it; the
+      only thing we write is what you explicitly confirm.</li>
+  <li><strong>Our hosting provider</strong> — stores the database and the application.</li>
+  <li><strong>Our error-monitoring provider</strong> — receives technical error reports with
+      request bodies removed.</li>
+  <li><strong>Telegram</strong> — only if you link a chat yourself, and only to deliver the
+      notifications you asked for.</li>
+</ul>
+<p>Nobody else. We do not have advertising partners, data brokers or analytics resellers.</p>
+
+<h2>6. How long we keep it</h2>
+<p>Advertising data and account data are kept while your company has an active account with us.
+When you close the account or ask for deletion, everything belonging to your company is removed
+— see <a href="data-deletion.html">Data Deletion</a>. Access tokens are destroyed immediately
+when you disconnect an ad account or revoke our access in Business Manager.</p>
+
+<h2>7. Keeping it separate and safe</h2>
+<p>Each customer's data is isolated at two independent levels: every query in the application
+carries an explicit company scope, and the database itself enforces row-level security under a
+role that cannot bypass it. Access tokens are encrypted at rest. Passwords are stored as
+PBKDF2-SHA256 hashes with a per-user salt.</p>
+
+<h2>8. Your rights</h2>
+<p>You can ask us to show you what we hold about you, correct it, or delete it. Write to
+<a href="mailto:privacy@your-domain.com"><span class="fill">privacy@your-domain.com</span></a> and we
+will answer within 30 days. If you believe we handled your data wrongly, you may also complain
+to your local data protection authority.</p>
+
+<h2>9. Children</h2>
+<p>Target Assistant is a tool for businesses. It is not directed at, and must not be used by,
+anyone under 18.</p>
+
+<h2>10. Changes</h2>
+<p>If we change this policy we update the date at the top. Material changes are announced inside
+the product before they take effect.</p>
+
+<footer>
+Target Assistant · <a href="index.html">Home</a> ·
+<a href="data-deletion.html">Data Deletion</a>
+</footer>
+
+</div>
+</body>
+</html>
